@@ -171,7 +171,7 @@ function StudentUploadPage({ onNavigate, setCsvDataForSchedule }) {
                     </Box>
                 )}
 
-                {promptToSchedule && (
+                {/* {promptToSchedule && (
                     <Box marginTop={3}>
                         {newStudent ? (
                             <Text>Want to add schedule info for newly added students?</Text>
@@ -192,7 +192,7 @@ function StudentUploadPage({ onNavigate, setCsvDataForSchedule }) {
                             Add Schedule Info
                         </Button>
                     </Box>
-                )}
+                )} */}
 
 
                 <FileDropZone
